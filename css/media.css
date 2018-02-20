@@ -540,6 +540,125 @@
   section.med.lazu .box {
     padding: 0;
   }
+
+  /* line 259, media.scss */
+  footer {
+    margin-top: 0;
+  }
+
+  /* line 263, media.scss */
+  section.dispatch .container {
+    padding-top: 0;
+  }
+
+  /* line 267, media.scss */
+  section.about {
+    background: #f96e28;
+    padding-bottom: 30px;
+  }
+
+  /* line 272, media.scss */
+  section.about .img {
+    margin-top: 25px;
+  }
+
+  /* line 276, media.scss */
+  section.about h2 {
+    padding-bottom: 30px;
+  }
+
+  /* line 280, media.scss */
+  section.partners {
+    background: url(../images/mob-partners.png) bottom no-repeat;
+    background-size: cover;
+    padding-bottom: 130px;
+  }
+
+  /* line 286, media.scss */
+  section.partners h2 {
+    font-size: 24px;
+    padding-top: 40px;
+  }
+
+  /* line 291, media.scss */
+  section.partners .list, section.partners .list .item:nth-child(odd) {
+    margin-top: 0;
+  }
+
+  /* line 295, media.scss */
+  section.partners .list .item {
+    margin-top: 25px !important;
+  }
+  /* line 297, media.scss */
+  section.partners .list .item .img {
+    text-align: center;
+  }
+  /* line 299, media.scss */
+  section.partners .list .item .img img {
+    max-width: 90%;
+  }
+
+  /* line 305, media.scss */
+  section.partners .list .item .text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 311, media.scss */
+  section.polezen.needed {
+    padding-bottom: 0;
+    background: url(../images/mob-needed.png) bottom no-repeat;
+    background-size: contain;
+  }
+  /* line 316, media.scss */
+  section.polezen.needed h2 {
+    color: #009dda;
+    padding-top: 80px;
+  }
+  /* line 322, media.scss */
+  section.polezen.needed form h2 {
+    color: white;
+    font-weight: 400;
+    padding-top: 0;
+  }
+
+  /* line 330, media.scss */
+  section.polezen.needed:before {
+    display: none;
+  }
+
+  /* line 334, media.scss */
+  section.polezen.needed .list .item:nth-child(2), section.polezen.needed .list .item {
+    margin-top: 30px;
+  }
+  /* line 337, media.scss */
+  section.polezen.needed .list .item:nth-child(2) img, section.polezen.needed .list .item img {
+    max-width: 90%;
+  }
+
+  /* line 342, media.scss */
+  section.polezen.needed .list .item .text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* line 348, media.scss */
+  section.polezen.needed .list {
+    margin-top: 20px;
+  }
+
+  /* line 352, media.scss */
+  section.polezen .form .caption {
+    margin-top: 10px;
+    font-weight: 400;
+    text-transform: none;
+  }
+  /* line 356, media.scss */
+  section.polezen .form .caption br {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=media.css.map */

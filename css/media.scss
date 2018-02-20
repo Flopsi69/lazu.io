@@ -256,4 +256,105 @@
 		padding: 0;
 	}
 
+	footer {
+		margin-top: 0;
+	}
+
+	section.dispatch .container {
+		padding-top: 0;
+	}
+
+	section.about {
+		background: #f96e28;
+		padding-bottom: 30px;
+	}
+
+	section.about .img {
+		margin-top: 25px;
+	}
+
+	section.about h2 {
+		padding-bottom: 30px;
+	}
+
+	section.partners {
+		background: url(../images/mob-partners.png) bottom no-repeat;
+		background-size: cover;
+		padding-bottom: 130px;
+	}
+
+	section.partners h2 {
+		font-size: 24px;
+		padding-top: 40px;
+	}
+
+	section.partners .list, section.partners .list .item:nth-child(odd) {
+		margin-top: 0;
+	}
+
+	section.partners .list .item {
+		margin-top: 25px!important;
+		.img {
+			text-align: center;
+			img {
+				max-width: 90%;
+			} 
+		}
+	}
+
+	section.partners .list .item .text {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section.polezen.needed {
+		padding-bottom: 0;
+		background: url(../images/mob-needed.png) bottom no-repeat;
+		background-size: contain;
+
+		h2 {
+			color: #009dda;
+			padding-top: 80px;
+		}
+
+		form {
+			h2 {
+				color: white;
+				font-weight: 400;
+				padding-top: 0;
+			}
+		}
+	}
+
+	section.polezen.needed:before {
+		display: none;
+	}
+
+	section.polezen.needed .list .item:nth-child(2), section.polezen.needed .list .item {
+		margin-top: 30px;
+
+		img {
+			max-width: 90%;
+		}
+	}
+
+	section.polezen.needed .list .item .text {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section.polezen.needed .list {
+		margin-top: 20px;
+	}
+
+	section.polezen .form .caption {
+		margin-top: 10px;
+		font-weight: 400;
+		text-transform: none;
+		br {
+			display: none;
+		}
+	}
 }
