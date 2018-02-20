@@ -1,0 +1,26 @@
+@font-face { 
+	font-family: 'Calibri';  
+	src: url('https://nomail.com.ua/files/woff/8ff6c498c08ffb65ca6b586c0e5dbe7f.woff') format('woff'); 
+	font-weight: 300;
+}
+@font-face { 
+	font-family: 'Calibri';  
+	src: url('https://nomail.com.ua/files/woff/3567d339a4859211316d2894f44ee97e.woff') format('woff'); 
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face { 
+	font-family: 'Calibri';  
+	src: url('https://nomail.com.ua/files/woff/a78cfad3beb089a6ce86d4e280fa270b.woff') format('woff'); 
+	font-weight: 400;
+}
+@font-face { 
+	font-family: 'Calibri';  
+	src: url('https://nomail.com.ua/files/woff/a78cfad3beb089a6ce86d4e280fa270b.woff') format('woff'); 
+	font-weight: 500;
+}
+@font-face { 
+	font-family: 'Calibri';  
+	src: url('https://nomail.com.ua/files/woff/8879a4caa29c42ce616cd5f172299366.woff') format('woff'); 
+	font-weight: 600;
+}

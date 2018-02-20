@@ -1,0 +1,259 @@
+@media screen and (max-width:375px){
+	#hamburger{display: block;}
+	nav{display: none;}
+	header{height: auto;padding-top: 10px;}
+	header .logotype{
+		position: relative;
+		padding: 0;
+		box-shadow: none;
+		transform: rotate(0deg);
+		& > *{transform: rotate(0deg); }
+		img{width: 70px;}
+		p{
+			font-size: 13px;
+		}
+	}
+	header .container{justify-content: flex-start !important;}
+	header .container > div:nth-child(2){
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+		border-top: 1px solid #d1ebf7;
+		padding-bottom: 5px;
+	}
+	header .phone{font-size: 24px;}
+	header .question{display: none;}
+	
+	.section__title{font-size: 16px;}
+
+
+	section.banner .bg{
+		min-height: 250px;
+		background: url(../images/top-bg-mobile.png) top center no-repeat;
+		background-size: contain;
+		margin: 30px 0;
+	}
+	section.banner .form-mini{zoom: .5;    white-space: nowrap;margin: 0 auto;}
+	// section.banner .form-mini .prices{font-size: 21px;margin-right: 5px;}
+	// section.banner .form-mini .prices > span > span:last-child{font-size: 14px;}
+	// .--counter button{width: 30px;}
+	// .--counter input{width: 30px;}
+	// section.banner .form-mini{margin-right: 0;}
+	// section.banner .form-mini .submit{
+	// 	padding: 5px;
+	// 	font-size: 15px;
+  //   background-position: calc(100% - 5px) center;
+  //   background-size: 20px;
+	// }
+	section.banner .text{zoom: .6;margin-top: 30px;}
+	section.banner{padding-bottom: 250px;min-height: initial;}
+
+	section.lazu{
+		background-image: none;
+		margin-top: -200px;
+		background-color: #ffb629;
+	}
+	section.lazu .box{padding-top: 0;margin-top: 0px;}
+	section.lazu .box > img{display: none;}
+	section.lazu .mobile{display: flex;}
+
+	section.secret .text{margin-top: 30px;flex-direction: column;}
+	section.secret .text .col + .col{padding-left: 0;padding-top: 20px;}
+	section.secret .bg{
+		background: url(../images/secret-img-mobile.png) center center no-repeat;
+    min-height: 240px;
+		background-size: contain;
+		margin: 30px 0;
+	}
+
+	
+	section.action .title,
+	section.action .sub-title{font-size: 24px;text-align: center;}
+	section.action .col + .col{margin-left: 0;width: 95vw;}
+	section.action .label{min-width: initial;font-size: 16px;background-size: contain;}
+	section.action .label span{font-size: 30px;}
+	section.action .time-counter{zoom: .8;}
+	section.action .prices .orange{margin-right: 10px;}
+	section.action .prices{font-size: 27px;}
+	section.action .small-text{text-align: center;}
+	section.action form{margin-left: 0;}
+	section.action .submit{font-size: 20px;padding-right: 40px;background-position: calc(100% - 10px) center;background-size: 25px;}
+
+
+	section.med{
+		background-image: none;
+		background-color: #ffbf3d;
+	}
+	section.med h2{font-size: 16px;padding-bottom: 50px;}
+	section.med .bg{display: none;}
+	section.med .list{margin-top:50px; flex-direction: column;align-items: center;margin-left: 0;}
+	section.med .list .item img{display: block;margin: 0 auto;}
+	section.med .list .item:nth-child(2){margin: 0;}
+	section.med .list .item + .item{margin-top: 30px;}
+
+
+	section.polezen{
+		padding-top: 0;
+    margin-top: 0;
+    background-position: left bottom;
+    background-size: 700px;
+		padding-bottom: 80px;
+		overflow-x: hidden;
+	}
+	section.polezen .form{margin-top: 0;}
+	section.polezen h2{color: #fff;font-size: 24px;}
+	section.polezen .list .item.wsm{margin-top: 0;margin: 30px auto;}
+	section.polezen .list .item:last-child{position: relative;bottom: 0;right: 0;}
+	section.polezen .box{margin-top: 0;}
+	section.polezen .form .caption{font-size: 18px;text-align: center;margin-top: 20px;}
+	section.polezen .form .wrap{margin-top: 20px;max-width: 100%;padding-bottom: 40px;}
+
+
+	section.vitamin{margin-top: -100px;padding-bottom: 55px;}
+	section.vitamin .text > * {flex: initial;}
+	section.vitamin .caption{font-weight: bold;text-align: center;}
+	section.vitamin .col + .col{padding-left: 0;padding-top: 40px;}
+	
+
+	section.documents{padding-bottom: 0;}
+	section.documents .video iframe{height: 300px;}
+
+	section.fans .fans{display: none;}
+	section.fans .fans.mobile{display: block;}
+	section.fans .button-wrapper{margin: -75px 0 1px;position: relative;z-index: 999;}
+
+
+	section.fans .form .right{padding-left: 0;padding-top: 20px;max-width: 100%;}
+	.--button-default{max-width: initial;}
+
+	section.questions .accordion p{font-size: 17px;padding-right: 50px;}
+	section.questions{padding-bottom: 50px;}
+
+
+	section.dispatch{background-size: contain;padding-bottom: 110px;min-height: initial;}
+	section.dispatch:after,
+	section.dispatch:before{display: none;}
+	section.dispatch .form .inline * + *{margin-left: 0;margin-top: 10px;}
+	section.dispatch .form input{max-width: 100%;}
+
+
+
+	footer{
+
+	}
+	footer .logotype{
+		padding: 15px;
+		position: relative;
+		margin: 20px;
+		text-align: center;
+		img{display: block;margin: 0 auto;}
+	}
+	footer .top .contacts{left: 0;top: 0;font-size: 30px;text-align: center;margin: 0 auto;}
+	footer .top .contacts a{display: block;text-align: center;}
+	footer .footer__nav{
+		padding: 20px 0;
+		background-color: #50ccd4;
+		box-shadow: none;
+		height: auto;
+		
+		ul{padding-right: 0;flex-direction: column;text-align: center;justify-content: center;margin: 0 auto;}
+		ul li + li{margin-left: 0;margin-top: 10px;}
+	}
+	footer .bot{display: none;}
+
+	section.banner-second .section__title {
+		font-weight: bold;
+		padding-top: 20px;
+		margin-bottom: 0;
+	}
+
+	section.banner-second .col-8 {
+		width: 100%;
+
+		&>img {
+			margin-bottom: 0;
+		}
+
+		.descr-top {
+			display: none;
+		}
+
+		.descr-bot {
+			font-weight: bold;
+			font-size: 16px;
+
+			br {
+				display: none;
+			}
+		}
+	}
+
+	section.banner-second .adv-items {
+		display: none;
+	}
+
+	section.banner-second .form .col {
+		width: 100%;
+		padding: 0;
+
+		input {
+			margin: 3px 0;
+			max-width: inherit;
+		}
+
+		button {
+			margin-top: 10px;
+		}
+	}
+
+	section.banner-second .adv-items.mobile {
+		display: flex;
+	}
+
+	section.banner-second {
+		padding-bottom: 80px;
+		background-size: cover;
+		position: relative;
+
+		&:after {
+			bottom: -35px;
+			content: '';
+			width: 100%;
+			position: absolute;
+			background: url(../images/mob-banner2.png) bottom no-repeat;
+			background-size: cover;
+			height: 110px;
+		}
+	}
+
+	section.med.lazu {
+		position: relative;
+		background: #ffb629;
+
+		&:after {
+			bottom: -53px;
+			content: '';
+			width: 100%;
+			position: absolute;
+			background: url(../images/mob-med2.png) bottom no-repeat;
+			background-size: cover;
+			height: 55px;
+		}
+
+		.mobile {
+			img:first-child {
+				position: relative;
+				top: -12px;
+				margin-bottom: 0;
+			}
+
+			img {
+				margin-bottom: 35px;
+			}
+		}
+	}
+	section.med.lazu .box {
+		padding: 0;
+	}
+
+}

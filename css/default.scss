@@ -1,0 +1,131 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+*:after,*:before{box-sizing: border-box;}
+img{max-width: 100%;}
+
+$Responsive: (
+	'--PC':1024,
+	'--tablet':768,
+	'--tablet-sm':640,
+	'--phone-lg':560,
+	'--phone':480,
+	'--phone-sm':375
+);
+$OrderCount: 13;
+
+
+
+// FLEXIBLE GRID
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+
+	// DEFAULT PARAMETERS
+	&.flex-auto > *{flex: 1;}
+	&.inline-flex{display: inline-flex;}
+
+	// TYPE CONTAINER
+	&.column{flex-direction: column;}
+	&.row{flex-direction: row;}
+
+	// WRAP
+	&.nowrap{flex-wrap: nowrap;}
+	
+	// DEFAULT JUSTIFY
+	&.jstart{justify-content: flex-start;}
+	&.jcenter{justify-content: center;}
+	&.jbetween{justify-content: space-between;}
+	&.jaround{justify-content: space-around;}
+	&.jend{justify-content: flex-end;}
+
+	// DEFAULT ITEMS ALIGMENT
+	&.itstart{align-items: flex-start;}
+	&.itcenter{align-items: center;}
+	&.itbase{align-items: baseline;}
+	&.itend{align-items: flex-end;}
+
+}
+
+	// RESPONSIVE
+	@each $display,$size in $Responsive{
+		
+		// MEDIA
+		@media screen and (max-width:$size+'px'){
+
+
+			// FLEX CONTAINER
+			.flex{
+				// MAKE GRID
+				@for $i from 1 to 13{
+					&.#{$display}-#{$i} > *{
+						width: calc(100% / 12 * #{$i});
+					}
+					& > .#{$display}-#{$i}{
+						width: calc(100% / 12 * #{$i});
+					}
+				} // ## MAKE GRID
+
+
+				// TO COLUMN
+				&.#{$display}-column{flex-direction: column;}
+				// TO ROW
+				&.#{$display}-row{flex-direction: row;}
+				
+				// JUSTIFY
+				&.#{$display}-jcenter{justify-content: center;}
+				&.#{$display}-jstart{justify-content: flex-start;}
+				&.#{$display}-jend{justify-content: flex-end;}
+				&.#{$display}-jbetween{justify-content: space-between;}
+				&.#{$display}-jaround{justify-content: space-around;}
+
+				// ITEM ALIGMENTS
+				&.#{$display}-itstart{align-items: flex-start;}
+				&.#{$display}-itcenter{align-items: center;}
+				&.#{$display}-itbase{align-items: baseline;}
+				&.#{$display}-itend{align-items: flex-end;}
+
+
+				// INLINE FLEX
+				&.#{$display}-inline-flex{display: inline-flex;}
+
+				// WRAP
+				&.#{$display}-nowrap{flex-wrap: nowrap;}
+
+
+				// ORDERS
+				@for $order from 1 to $OrderCount{
+					&.#{$display}-order-#{$order}{ order: #{$order}; }
+					& > .#{$display}-order-#{$order}{ order: #{$order}; }
+				}
+
+
+			} // ## FLEX CONTAINER
+
+
+
+			// TEXT
+			.#{$display}-t-left{text-align: left;}
+			.#{$display}-t-right{text-align: right;}
+			.#{$display}-t-center{text-align: center;}
+			.#{$display}-t-justify{text-align: justify;}
+
+
+			// DISPLAYS
+			.#{$display}-hidden{display: none;}
+			.#{$display}-inline{display: inline;}
+			.#{$display}-inb{display: inline-block;}
+			.#{$display}-b{display: block;}
+			.#{$display}-table{display: table;}
+			.#{$display}-flex{display: flex;}
+			.#{$display}-inflex{display: inline-flex;}
+
+
+			// POSITIONS
+			.#{$display}-posrel{position: relative;}
+			.#{$display}-posabs{position: absolute;}
+
+
+		} // ## MEDIA 
+
+
+}	// ## RESPONSIVE
+

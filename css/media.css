@@ -1,0 +1,545 @@
+@media screen and (max-width: 375px) {
+  /* line 2, media.scss */
+  #hamburger {
+    display: block;
+  }
+
+  /* line 3, media.scss */
+  nav {
+    display: none;
+  }
+
+  /* line 4, media.scss */
+  header {
+    height: auto;
+    padding-top: 10px;
+  }
+
+  /* line 5, media.scss */
+  header .logotype {
+    position: relative;
+    padding: 0;
+    box-shadow: none;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  /* line 10, media.scss */
+  header .logotype > * {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  /* line 11, media.scss */
+  header .logotype img {
+    width: 70px;
+  }
+  /* line 12, media.scss */
+  header .logotype p {
+    font-size: 13px;
+  }
+
+  /* line 16, media.scss */
+  header .container {
+    justify-content: flex-start !important;
+  }
+
+  /* line 17, media.scss */
+  header .container > div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid #d1ebf7;
+    padding-bottom: 5px;
+  }
+
+  /* line 24, media.scss */
+  header .phone {
+    font-size: 24px;
+  }
+
+  /* line 25, media.scss */
+  header .question {
+    display: none;
+  }
+
+  /* line 27, media.scss */
+  .section__title {
+    font-size: 16px;
+  }
+
+  /* line 30, media.scss */
+  section.banner .bg {
+    min-height: 250px;
+    background: url(../images/top-bg-mobile.png) top center no-repeat;
+    background-size: contain;
+    margin: 30px 0;
+  }
+
+  /* line 36, media.scss */
+  section.banner .form-mini {
+    zoom: .5;
+    white-space: nowrap;
+    margin: 0 auto;
+  }
+
+  /* line 48, media.scss */
+  section.banner .text {
+    zoom: .6;
+    margin-top: 30px;
+  }
+
+  /* line 49, media.scss */
+  section.banner {
+    padding-bottom: 250px;
+    min-height: initial;
+  }
+
+  /* line 51, media.scss */
+  section.lazu {
+    background-image: none;
+    margin-top: -200px;
+    background-color: #ffb629;
+  }
+
+  /* line 56, media.scss */
+  section.lazu .box {
+    padding-top: 0;
+    margin-top: 0px;
+  }
+
+  /* line 57, media.scss */
+  section.lazu .box > img {
+    display: none;
+  }
+
+  /* line 58, media.scss */
+  section.lazu .mobile {
+    display: flex;
+  }
+
+  /* line 60, media.scss */
+  section.secret .text {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  /* line 61, media.scss */
+  section.secret .text .col + .col {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  /* line 62, media.scss */
+  section.secret .bg {
+    background: url(../images/secret-img-mobile.png) center center no-repeat;
+    min-height: 240px;
+    background-size: contain;
+    margin: 30px 0;
+  }
+
+  /* line 70, media.scss */
+  section.action .title,
+  section.action .sub-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  /* line 72, media.scss */
+  section.action .col + .col {
+    margin-left: 0;
+    width: 95vw;
+  }
+
+  /* line 73, media.scss */
+  section.action .label {
+    min-width: initial;
+    font-size: 16px;
+    background-size: contain;
+  }
+
+  /* line 74, media.scss */
+  section.action .label span {
+    font-size: 30px;
+  }
+
+  /* line 75, media.scss */
+  section.action .time-counter {
+    zoom: .8;
+  }
+
+  /* line 76, media.scss */
+  section.action .prices .orange {
+    margin-right: 10px;
+  }
+
+  /* line 77, media.scss */
+  section.action .prices {
+    font-size: 27px;
+  }
+
+  /* line 78, media.scss */
+  section.action .small-text {
+    text-align: center;
+  }
+
+  /* line 79, media.scss */
+  section.action form {
+    margin-left: 0;
+  }
+
+  /* line 80, media.scss */
+  section.action .submit {
+    font-size: 20px;
+    padding-right: 40px;
+    background-position: calc(100% - 10px) center;
+    background-size: 25px;
+  }
+
+  /* line 83, media.scss */
+  section.med {
+    background-image: none;
+    background-color: #ffbf3d;
+  }
+
+  /* line 87, media.scss */
+  section.med h2 {
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+
+  /* line 88, media.scss */
+  section.med .bg {
+    display: none;
+  }
+
+  /* line 89, media.scss */
+  section.med .list {
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  /* line 90, media.scss */
+  section.med .list .item img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 91, media.scss */
+  section.med .list .item:nth-child(2) {
+    margin: 0;
+  }
+
+  /* line 92, media.scss */
+  section.med .list .item + .item {
+    margin-top: 30px;
+  }
+
+  /* line 95, media.scss */
+  section.polezen {
+    padding-top: 0;
+    margin-top: 0;
+    background-position: left bottom;
+    background-size: 700px;
+    padding-bottom: 80px;
+    overflow-x: hidden;
+  }
+
+  /* line 103, media.scss */
+  section.polezen .form {
+    margin-top: 0;
+  }
+
+  /* line 104, media.scss */
+  section.polezen h2 {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  /* line 105, media.scss */
+  section.polezen .list .item.wsm {
+    margin-top: 0;
+    margin: 30px auto;
+  }
+
+  /* line 106, media.scss */
+  section.polezen .list .item:last-child {
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+
+  /* line 107, media.scss */
+  section.polezen .box {
+    margin-top: 0;
+  }
+
+  /* line 108, media.scss */
+  section.polezen .form .caption {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* line 109, media.scss */
+  section.polezen .form .wrap {
+    margin-top: 20px;
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+
+  /* line 112, media.scss */
+  section.vitamin {
+    margin-top: -100px;
+    padding-bottom: 55px;
+  }
+
+  /* line 113, media.scss */
+  section.vitamin .text > * {
+    flex: initial;
+  }
+
+  /* line 114, media.scss */
+  section.vitamin .caption {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  /* line 115, media.scss */
+  section.vitamin .col + .col {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+
+  /* line 118, media.scss */
+  section.documents {
+    padding-bottom: 0;
+  }
+
+  /* line 119, media.scss */
+  section.documents .video iframe {
+    height: 300px;
+  }
+
+  /* line 121, media.scss */
+  section.fans .fans {
+    display: none;
+  }
+
+  /* line 122, media.scss */
+  section.fans .fans.mobile {
+    display: block;
+  }
+
+  /* line 123, media.scss */
+  section.fans .button-wrapper {
+    margin: -75px 0 1px;
+    position: relative;
+    z-index: 999;
+  }
+
+  /* line 126, media.scss */
+  section.fans .form .right {
+    padding-left: 0;
+    padding-top: 20px;
+    max-width: 100%;
+  }
+
+  /* line 127, media.scss */
+  .--button-default {
+    max-width: initial;
+  }
+
+  /* line 129, media.scss */
+  section.questions .accordion p {
+    font-size: 17px;
+    padding-right: 50px;
+  }
+
+  /* line 130, media.scss */
+  section.questions {
+    padding-bottom: 50px;
+  }
+
+  /* line 133, media.scss */
+  section.dispatch {
+    background-size: contain;
+    padding-bottom: 110px;
+    min-height: initial;
+  }
+
+  /* line 134, media.scss */
+  section.dispatch:after,
+  section.dispatch:before {
+    display: none;
+  }
+
+  /* line 136, media.scss */
+  section.dispatch .form .inline * + * {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  /* line 137, media.scss */
+  section.dispatch .form input {
+    max-width: 100%;
+  }
+
+  /* line 144, media.scss */
+  footer .logotype {
+    padding: 15px;
+    position: relative;
+    margin: 20px;
+    text-align: center;
+  }
+  /* line 149, media.scss */
+  footer .logotype img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* line 151, media.scss */
+  footer .top .contacts {
+    left: 0;
+    top: 0;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* line 152, media.scss */
+  footer .top .contacts a {
+    display: block;
+    text-align: center;
+  }
+
+  /* line 153, media.scss */
+  footer .footer__nav {
+    padding: 20px 0;
+    background-color: #50ccd4;
+    box-shadow: none;
+    height: auto;
+  }
+  /* line 159, media.scss */
+  footer .footer__nav ul {
+    padding-right: 0;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  /* line 160, media.scss */
+  footer .footer__nav ul li + li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  /* line 162, media.scss */
+  footer .bot {
+    display: none;
+  }
+
+  /* line 164, media.scss */
+  section.banner-second .section__title {
+    font-weight: bold;
+    padding-top: 20px;
+    margin-bottom: 0;
+  }
+
+  /* line 170, media.scss */
+  section.banner-second .col-8 {
+    width: 100%;
+  }
+  /* line 173, media.scss */
+  section.banner-second .col-8 > img {
+    margin-bottom: 0;
+  }
+  /* line 177, media.scss */
+  section.banner-second .col-8 .descr-top {
+    display: none;
+  }
+  /* line 181, media.scss */
+  section.banner-second .col-8 .descr-bot {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  /* line 185, media.scss */
+  section.banner-second .col-8 .descr-bot br {
+    display: none;
+  }
+
+  /* line 191, media.scss */
+  section.banner-second .adv-items {
+    display: none;
+  }
+
+  /* line 195, media.scss */
+  section.banner-second .form .col {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 199, media.scss */
+  section.banner-second .form .col input {
+    margin: 3px 0;
+    max-width: inherit;
+  }
+  /* line 204, media.scss */
+  section.banner-second .form .col button {
+    margin-top: 10px;
+  }
+
+  /* line 209, media.scss */
+  section.banner-second .adv-items.mobile {
+    display: flex;
+  }
+
+  /* line 213, media.scss */
+  section.banner-second {
+    padding-bottom: 80px;
+    background-size: cover;
+    position: relative;
+  }
+  /* line 218, media.scss */
+  section.banner-second:after {
+    bottom: -35px;
+    content: '';
+    width: 100%;
+    position: absolute;
+    background: url(../images/mob-banner2.png) bottom no-repeat;
+    background-size: cover;
+    height: 110px;
+  }
+
+  /* line 229, media.scss */
+  section.med.lazu {
+    position: relative;
+    background: #ffb629;
+  }
+  /* line 233, media.scss */
+  section.med.lazu:after {
+    bottom: -53px;
+    content: '';
+    width: 100%;
+    position: absolute;
+    background: url(../images/mob-med2.png) bottom no-repeat;
+    background-size: cover;
+    height: 55px;
+  }
+  /* line 244, media.scss */
+  section.med.lazu .mobile img:first-child {
+    position: relative;
+    top: -12px;
+    margin-bottom: 0;
+  }
+  /* line 250, media.scss */
+  section.med.lazu .mobile img {
+    margin-bottom: 35px;
+  }
+
+  /* line 255, media.scss */
+  section.med.lazu .box {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
