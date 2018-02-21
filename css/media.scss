@@ -1,4 +1,15 @@
-@media screen and (max-width:375px){
+@media screen and (max-width: 1600px) {
+	section.polezen:after {
+		right: 15%;
+	}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1025px){
+	section.partners .list {
+		flex-wrap: nowrap;
+	}
+}
+@media screen and (max-width:1024px){
 	#hamburger{display: block;}
 	nav{display: none;}
 	header{height: auto;padding-top: 10px;}
@@ -220,40 +231,58 @@
 			content: '';
 			width: 100%;
 			position: absolute;
-			background: url(../images/mob-banner2.png) bottom no-repeat;
-			background-size: cover;
-			height: 110px;
+			background: url(../images/mob-banner2.png) bottom;
+			height: 109px;
+			background-repeat-x: repeat;
 		}
 	}
 
+	section.dispatch {
+		// background: #50CCE3 url(../images/dispatch-bg.png) 0px 140% no-repeat; 
+		// background-size: contain;
+	}
+
 	section.med.lazu {
+		text-align: center;
 		position: relative;
 		background: #ffb629;
+		min-height: initial;
 
 		&:after {
-			bottom: -53px;
+			bottom: -54px;
 			content: '';
+			left: 0;
+			right: 0;
 			width: 100%;
 			position: absolute;
-			background: url(../images/mob-med2.png) bottom no-repeat;
-			background-size: cover;
+			background: url(../images/mob-med2.png) bottom;
 			height: 55px;
 		}
 
 		.mobile {
+			display: flex;
+			justify-content: space-around;
 			img:first-child {
 				position: relative;
 				top: -12px;
-				margin-bottom: 0;
+				display: none;
+				margin: 0 auto;
+				// height: 100%;
+				// width: 100%;
 			}
 
 			img {
-				margin-bottom: 35px;
+				display: inline-block;
+				margin: 35px 20px 0;
 			}
 		}
 	}
 	section.med.lazu .box {
 		padding: 0;
+	}
+
+	section.polezen.needed:after {
+		display: none;
 	}
 
 	footer {
@@ -288,12 +317,17 @@
 		padding-top: 40px;
 	}
 
+	section.partners .list {
+		justify-content: center;
+	}
+
 	section.partners .list, section.partners .list .item:nth-child(odd) {
 		margin-top: 0;
 	}
 
 	section.partners .list .item {
 		margin-top: 25px!important;
+		// align-self: center;
 		.img {
 			text-align: center;
 			img {
@@ -312,6 +346,10 @@
 		padding-bottom: 0;
 		background: url(../images/mob-needed.png) bottom no-repeat;
 		background-size: contain;
+
+		.--input {
+			padding: 10px 20px;
+		}
 
 		h2 {
 			color: #009dda;
@@ -347,6 +385,7 @@
 
 	section.polezen.needed .list {
 		margin-top: 20px;
+		justify-content: center;
 	}
 
 	section.polezen .form .caption {
@@ -356,5 +395,11 @@
 		br {
 			display: none;
 		}
+	}
+}
+
+@media screen and (max-width: 500px) {
+	section.med.lazu .mobile img:first-child {
+		display: block;
 	}
 }

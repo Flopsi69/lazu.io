@@ -1,21 +1,33 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1600px) {
   /* line 2, media.scss */
+  section.polezen:after {
+    right: 15%;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 1025px) {
+  /* line 8, media.scss */
+  section.partners .list {
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 13, media.scss */
   #hamburger {
     display: block;
   }
 
-  /* line 3, media.scss */
+  /* line 14, media.scss */
   nav {
     display: none;
   }
 
-  /* line 4, media.scss */
+  /* line 15, media.scss */
   header {
     height: auto;
     padding-top: 10px;
   }
 
-  /* line 5, media.scss */
+  /* line 16, media.scss */
   header .logotype {
     position: relative;
     padding: 0;
@@ -23,26 +35,26 @@
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
-  /* line 10, media.scss */
+  /* line 21, media.scss */
   header .logotype > * {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
-  /* line 11, media.scss */
+  /* line 22, media.scss */
   header .logotype img {
     width: 70px;
   }
-  /* line 12, media.scss */
+  /* line 23, media.scss */
   header .logotype p {
     font-size: 13px;
   }
 
-  /* line 16, media.scss */
+  /* line 27, media.scss */
   header .container {
     justify-content: flex-start !important;
   }
 
-  /* line 17, media.scss */
+  /* line 28, media.scss */
   header .container > div:nth-child(2) {
     width: 100%;
     text-align: center;
@@ -51,22 +63,22 @@
     padding-bottom: 5px;
   }
 
-  /* line 24, media.scss */
+  /* line 35, media.scss */
   header .phone {
     font-size: 24px;
   }
 
-  /* line 25, media.scss */
+  /* line 36, media.scss */
   header .question {
     display: none;
   }
 
-  /* line 27, media.scss */
+  /* line 38, media.scss */
   .section__title {
     font-size: 16px;
   }
 
-  /* line 30, media.scss */
+  /* line 41, media.scss */
   section.banner .bg {
     min-height: 250px;
     background: url(../images/top-bg-mobile.png) top center no-repeat;
@@ -74,61 +86,61 @@
     margin: 30px 0;
   }
 
-  /* line 36, media.scss */
+  /* line 47, media.scss */
   section.banner .form-mini {
     zoom: .5;
     white-space: nowrap;
     margin: 0 auto;
   }
 
-  /* line 48, media.scss */
+  /* line 59, media.scss */
   section.banner .text {
     zoom: .6;
     margin-top: 30px;
   }
 
-  /* line 49, media.scss */
+  /* line 60, media.scss */
   section.banner {
     padding-bottom: 250px;
     min-height: initial;
   }
 
-  /* line 51, media.scss */
+  /* line 62, media.scss */
   section.lazu {
     background-image: none;
     margin-top: -200px;
     background-color: #ffb629;
   }
 
-  /* line 56, media.scss */
+  /* line 67, media.scss */
   section.lazu .box {
     padding-top: 0;
     margin-top: 0px;
   }
 
-  /* line 57, media.scss */
+  /* line 68, media.scss */
   section.lazu .box > img {
     display: none;
   }
 
-  /* line 58, media.scss */
+  /* line 69, media.scss */
   section.lazu .mobile {
     display: flex;
   }
 
-  /* line 60, media.scss */
+  /* line 71, media.scss */
   section.secret .text {
     margin-top: 30px;
     flex-direction: column;
   }
 
-  /* line 61, media.scss */
+  /* line 72, media.scss */
   section.secret .text .col + .col {
     padding-left: 0;
     padding-top: 20px;
   }
 
-  /* line 62, media.scss */
+  /* line 73, media.scss */
   section.secret .bg {
     background: url(../images/secret-img-mobile.png) center center no-repeat;
     min-height: 240px;
@@ -136,57 +148,57 @@
     margin: 30px 0;
   }
 
-  /* line 70, media.scss */
+  /* line 81, media.scss */
   section.action .title,
   section.action .sub-title {
     font-size: 24px;
     text-align: center;
   }
 
-  /* line 72, media.scss */
+  /* line 83, media.scss */
   section.action .col + .col {
     margin-left: 0;
     width: 95vw;
   }
 
-  /* line 73, media.scss */
+  /* line 84, media.scss */
   section.action .label {
     min-width: initial;
     font-size: 16px;
     background-size: contain;
   }
 
-  /* line 74, media.scss */
+  /* line 85, media.scss */
   section.action .label span {
     font-size: 30px;
   }
 
-  /* line 75, media.scss */
+  /* line 86, media.scss */
   section.action .time-counter {
     zoom: .8;
   }
 
-  /* line 76, media.scss */
+  /* line 87, media.scss */
   section.action .prices .orange {
     margin-right: 10px;
   }
 
-  /* line 77, media.scss */
+  /* line 88, media.scss */
   section.action .prices {
     font-size: 27px;
   }
 
-  /* line 78, media.scss */
+  /* line 89, media.scss */
   section.action .small-text {
     text-align: center;
   }
 
-  /* line 79, media.scss */
+  /* line 90, media.scss */
   section.action form {
     margin-left: 0;
   }
 
-  /* line 80, media.scss */
+  /* line 91, media.scss */
   section.action .submit {
     font-size: 20px;
     padding-right: 40px;
@@ -194,24 +206,24 @@
     background-size: 25px;
   }
 
-  /* line 83, media.scss */
+  /* line 94, media.scss */
   section.med {
     background-image: none;
     background-color: #ffbf3d;
   }
 
-  /* line 87, media.scss */
+  /* line 98, media.scss */
   section.med h2 {
     font-size: 16px;
     padding-bottom: 50px;
   }
 
-  /* line 88, media.scss */
+  /* line 99, media.scss */
   section.med .bg {
     display: none;
   }
 
-  /* line 89, media.scss */
+  /* line 100, media.scss */
   section.med .list {
     margin-top: 50px;
     flex-direction: column;
@@ -219,23 +231,23 @@
     margin-left: 0;
   }
 
-  /* line 90, media.scss */
+  /* line 101, media.scss */
   section.med .list .item img {
     display: block;
     margin: 0 auto;
   }
 
-  /* line 91, media.scss */
+  /* line 102, media.scss */
   section.med .list .item:nth-child(2) {
     margin: 0;
   }
 
-  /* line 92, media.scss */
+  /* line 103, media.scss */
   section.med .list .item + .item {
     margin-top: 30px;
   }
 
-  /* line 95, media.scss */
+  /* line 106, media.scss */
   section.polezen {
     padding-top: 0;
     margin-top: 0;
@@ -245,160 +257,160 @@
     overflow-x: hidden;
   }
 
-  /* line 103, media.scss */
+  /* line 114, media.scss */
   section.polezen .form {
     margin-top: 0;
   }
 
-  /* line 104, media.scss */
+  /* line 115, media.scss */
   section.polezen h2 {
     color: #fff;
     font-size: 24px;
   }
 
-  /* line 105, media.scss */
+  /* line 116, media.scss */
   section.polezen .list .item.wsm {
     margin-top: 0;
     margin: 30px auto;
   }
 
-  /* line 106, media.scss */
+  /* line 117, media.scss */
   section.polezen .list .item:last-child {
     position: relative;
     bottom: 0;
     right: 0;
   }
 
-  /* line 107, media.scss */
+  /* line 118, media.scss */
   section.polezen .box {
     margin-top: 0;
   }
 
-  /* line 108, media.scss */
+  /* line 119, media.scss */
   section.polezen .form .caption {
     font-size: 18px;
     text-align: center;
     margin-top: 20px;
   }
 
-  /* line 109, media.scss */
+  /* line 120, media.scss */
   section.polezen .form .wrap {
     margin-top: 20px;
     max-width: 100%;
     padding-bottom: 40px;
   }
 
-  /* line 112, media.scss */
+  /* line 123, media.scss */
   section.vitamin {
     margin-top: -100px;
     padding-bottom: 55px;
   }
 
-  /* line 113, media.scss */
+  /* line 124, media.scss */
   section.vitamin .text > * {
     flex: initial;
   }
 
-  /* line 114, media.scss */
+  /* line 125, media.scss */
   section.vitamin .caption {
     font-weight: bold;
     text-align: center;
   }
 
-  /* line 115, media.scss */
+  /* line 126, media.scss */
   section.vitamin .col + .col {
     padding-left: 0;
     padding-top: 40px;
   }
 
-  /* line 118, media.scss */
+  /* line 129, media.scss */
   section.documents {
     padding-bottom: 0;
   }
 
-  /* line 119, media.scss */
+  /* line 130, media.scss */
   section.documents .video iframe {
     height: 300px;
   }
 
-  /* line 121, media.scss */
+  /* line 132, media.scss */
   section.fans .fans {
     display: none;
   }
 
-  /* line 122, media.scss */
+  /* line 133, media.scss */
   section.fans .fans.mobile {
     display: block;
   }
 
-  /* line 123, media.scss */
+  /* line 134, media.scss */
   section.fans .button-wrapper {
     margin: -75px 0 1px;
     position: relative;
     z-index: 999;
   }
 
-  /* line 126, media.scss */
+  /* line 137, media.scss */
   section.fans .form .right {
     padding-left: 0;
     padding-top: 20px;
     max-width: 100%;
   }
 
-  /* line 127, media.scss */
+  /* line 138, media.scss */
   .--button-default {
     max-width: initial;
   }
 
-  /* line 129, media.scss */
+  /* line 140, media.scss */
   section.questions .accordion p {
     font-size: 17px;
     padding-right: 50px;
   }
 
-  /* line 130, media.scss */
+  /* line 141, media.scss */
   section.questions {
     padding-bottom: 50px;
   }
 
-  /* line 133, media.scss */
+  /* line 144, media.scss */
   section.dispatch {
     background-size: contain;
     padding-bottom: 110px;
     min-height: initial;
   }
 
-  /* line 134, media.scss */
+  /* line 145, media.scss */
   section.dispatch:after,
   section.dispatch:before {
     display: none;
   }
 
-  /* line 136, media.scss */
+  /* line 147, media.scss */
   section.dispatch .form .inline * + * {
     margin-left: 0;
     margin-top: 10px;
   }
 
-  /* line 137, media.scss */
+  /* line 148, media.scss */
   section.dispatch .form input {
     max-width: 100%;
   }
 
-  /* line 144, media.scss */
+  /* line 155, media.scss */
   footer .logotype {
     padding: 15px;
     position: relative;
     margin: 20px;
     text-align: center;
   }
-  /* line 149, media.scss */
+  /* line 160, media.scss */
   footer .logotype img {
     display: block;
     margin: 0 auto;
   }
 
-  /* line 151, media.scss */
+  /* line 162, media.scss */
   footer .top .contacts {
     left: 0;
     top: 0;
@@ -407,20 +419,20 @@
     margin: 0 auto;
   }
 
-  /* line 152, media.scss */
+  /* line 163, media.scss */
   footer .top .contacts a {
     display: block;
     text-align: center;
   }
 
-  /* line 153, media.scss */
+  /* line 164, media.scss */
   footer .footer__nav {
     padding: 20px 0;
     background-color: #50ccd4;
     box-shadow: none;
     height: auto;
   }
-  /* line 159, media.scss */
+  /* line 170, media.scss */
   footer .footer__nav ul {
     padding-right: 0;
     flex-direction: column;
@@ -428,236 +440,267 @@
     justify-content: center;
     margin: 0 auto;
   }
-  /* line 160, media.scss */
+  /* line 171, media.scss */
   footer .footer__nav ul li + li {
     margin-left: 0;
     margin-top: 10px;
   }
 
-  /* line 162, media.scss */
+  /* line 173, media.scss */
   footer .bot {
     display: none;
   }
 
-  /* line 164, media.scss */
+  /* line 175, media.scss */
   section.banner-second .section__title {
     font-weight: bold;
     padding-top: 20px;
     margin-bottom: 0;
   }
 
-  /* line 170, media.scss */
+  /* line 181, media.scss */
   section.banner-second .col-8 {
     width: 100%;
   }
-  /* line 173, media.scss */
+  /* line 184, media.scss */
   section.banner-second .col-8 > img {
     margin-bottom: 0;
   }
-  /* line 177, media.scss */
+  /* line 188, media.scss */
   section.banner-second .col-8 .descr-top {
     display: none;
   }
-  /* line 181, media.scss */
+  /* line 192, media.scss */
   section.banner-second .col-8 .descr-bot {
     font-weight: bold;
     font-size: 16px;
   }
-  /* line 185, media.scss */
+  /* line 196, media.scss */
   section.banner-second .col-8 .descr-bot br {
     display: none;
   }
 
-  /* line 191, media.scss */
+  /* line 202, media.scss */
   section.banner-second .adv-items {
     display: none;
   }
 
-  /* line 195, media.scss */
+  /* line 206, media.scss */
   section.banner-second .form .col {
     width: 100%;
     padding: 0;
   }
-  /* line 199, media.scss */
+  /* line 210, media.scss */
   section.banner-second .form .col input {
     margin: 3px 0;
     max-width: inherit;
   }
-  /* line 204, media.scss */
+  /* line 215, media.scss */
   section.banner-second .form .col button {
     margin-top: 10px;
   }
 
-  /* line 209, media.scss */
+  /* line 220, media.scss */
   section.banner-second .adv-items.mobile {
     display: flex;
   }
 
-  /* line 213, media.scss */
+  /* line 224, media.scss */
   section.banner-second {
     padding-bottom: 80px;
     background-size: cover;
     position: relative;
   }
-  /* line 218, media.scss */
+  /* line 229, media.scss */
   section.banner-second:after {
     bottom: -35px;
     content: '';
     width: 100%;
     position: absolute;
-    background: url(../images/mob-banner2.png) bottom no-repeat;
-    background-size: cover;
-    height: 110px;
+    background: url(../images/mob-banner2.png) bottom;
+    height: 109px;
+    background-repeat-x: repeat;
   }
 
-  /* line 229, media.scss */
+  /* line 245, media.scss */
   section.med.lazu {
+    text-align: center;
     position: relative;
     background: #ffb629;
+    min-height: initial;
   }
-  /* line 233, media.scss */
+  /* line 251, media.scss */
   section.med.lazu:after {
-    bottom: -53px;
+    bottom: -54px;
     content: '';
+    left: 0;
+    right: 0;
     width: 100%;
     position: absolute;
-    background: url(../images/mob-med2.png) bottom no-repeat;
-    background-size: cover;
+    background: url(../images/mob-med2.png) bottom;
     height: 55px;
   }
-  /* line 244, media.scss */
+  /* line 262, media.scss */
+  section.med.lazu .mobile {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* line 265, media.scss */
   section.med.lazu .mobile img:first-child {
     position: relative;
     top: -12px;
-    margin-bottom: 0;
+    display: none;
+    margin: 0 auto;
   }
-  /* line 250, media.scss */
+  /* line 274, media.scss */
   section.med.lazu .mobile img {
-    margin-bottom: 35px;
+    display: inline-block;
+    margin: 35px 20px 0;
   }
 
-  /* line 255, media.scss */
+  /* line 280, media.scss */
   section.med.lazu .box {
     padding: 0;
   }
 
-  /* line 259, media.scss */
+  /* line 284, media.scss */
+  section.polezen.needed:after {
+    display: none;
+  }
+
+  /* line 288, media.scss */
   footer {
     margin-top: 0;
   }
 
-  /* line 263, media.scss */
+  /* line 292, media.scss */
   section.dispatch .container {
     padding-top: 0;
   }
 
-  /* line 267, media.scss */
+  /* line 296, media.scss */
   section.about {
     background: #f96e28;
     padding-bottom: 30px;
   }
 
-  /* line 272, media.scss */
+  /* line 301, media.scss */
   section.about .img {
     margin-top: 25px;
   }
 
-  /* line 276, media.scss */
+  /* line 305, media.scss */
   section.about h2 {
     padding-bottom: 30px;
   }
 
-  /* line 280, media.scss */
+  /* line 309, media.scss */
   section.partners {
     background: url(../images/mob-partners.png) bottom no-repeat;
     background-size: cover;
     padding-bottom: 130px;
   }
 
-  /* line 286, media.scss */
+  /* line 315, media.scss */
   section.partners h2 {
     font-size: 24px;
     padding-top: 40px;
   }
 
-  /* line 291, media.scss */
+  /* line 320, media.scss */
+  section.partners .list {
+    justify-content: center;
+  }
+
+  /* line 324, media.scss */
   section.partners .list, section.partners .list .item:nth-child(odd) {
     margin-top: 0;
   }
 
-  /* line 295, media.scss */
+  /* line 328, media.scss */
   section.partners .list .item {
     margin-top: 25px !important;
   }
-  /* line 297, media.scss */
+  /* line 331, media.scss */
   section.partners .list .item .img {
     text-align: center;
   }
-  /* line 299, media.scss */
+  /* line 333, media.scss */
   section.partners .list .item .img img {
     max-width: 90%;
   }
 
-  /* line 305, media.scss */
+  /* line 339, media.scss */
   section.partners .list .item .text {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 311, media.scss */
+  /* line 345, media.scss */
   section.polezen.needed {
     padding-bottom: 0;
     background: url(../images/mob-needed.png) bottom no-repeat;
     background-size: contain;
   }
-  /* line 316, media.scss */
+  /* line 350, media.scss */
+  section.polezen.needed .--input {
+    padding: 10px 20px;
+  }
+  /* line 354, media.scss */
   section.polezen.needed h2 {
     color: #009dda;
     padding-top: 80px;
   }
-  /* line 322, media.scss */
+  /* line 360, media.scss */
   section.polezen.needed form h2 {
     color: white;
     font-weight: 400;
     padding-top: 0;
   }
 
-  /* line 330, media.scss */
+  /* line 368, media.scss */
   section.polezen.needed:before {
     display: none;
   }
 
-  /* line 334, media.scss */
+  /* line 372, media.scss */
   section.polezen.needed .list .item:nth-child(2), section.polezen.needed .list .item {
     margin-top: 30px;
   }
-  /* line 337, media.scss */
+  /* line 375, media.scss */
   section.polezen.needed .list .item:nth-child(2) img, section.polezen.needed .list .item img {
     max-width: 90%;
   }
 
-  /* line 342, media.scss */
+  /* line 380, media.scss */
   section.polezen.needed .list .item .text {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* line 348, media.scss */
+  /* line 386, media.scss */
   section.polezen.needed .list {
     margin-top: 20px;
+    justify-content: center;
   }
 
-  /* line 352, media.scss */
+  /* line 391, media.scss */
   section.polezen .form .caption {
     margin-top: 10px;
     font-weight: 400;
     text-transform: none;
   }
-  /* line 356, media.scss */
+  /* line 395, media.scss */
   section.polezen .form .caption br {
     display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 402, media.scss */
+  section.med.lazu .mobile img:first-child {
+    display: block;
   }
 }
 
